@@ -2665,7 +2665,7 @@ footer {
 
 .tf__mission_text ul li:nth-child(2),
 .tf__mission_text ol li:nth-child(2) {
-    left: 100px;
+    /* left: 100px; */
 }
 
 .tf__mission_text ul li:last-child,
