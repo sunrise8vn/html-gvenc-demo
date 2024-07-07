@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="assets/css/spacing.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <link rel="stylesheet" href="assets/css/video.css" />
 </head>
 
 <body>
@@ -87,92 +89,57 @@
   <!--=============================
         BREADCRUMB START
     ==============================-->
-  <section class="tf__breadcrumb" style="background: url(assets/images/sign-up.jpg)">
-    <div class="tf__breadcrumb_overlay">
+  <section class="tf__breadcrumb" style="background: url(assets/images/header-video.png)">
+    <div class="tf__breadcrumb_overlay" style="background: transparent;">
       <div class="container">
         <div class="tf__breadcrumb_text">
-          <h1>ĐĂNG KÝ</h1>
+          <h1>Video</h1>
           <ul>
             <li><a href="index.html">Trang chủ</a></li>
-            <li><a href="#">Đăng ký thành viên</a></li>
+            <li><a href="#">Video</a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
+
   <!--=============================
         BREADCRUMB END
     ==============================-->
 
   <!--=============================
-        MENU DETAILS START
+        BLOG PAGE START
     ==============================-->
-  <section class="tf__blog_details mt_100 xs_mt_70 mb_100 xs_mb_70">
+  <section class="tf__blog_page mt_75 xs_mt_45 mb_100 xs_mb_70">
     <div class="container">
-      <div class="row">
-        <div class="col-xl-12 col-lg-12">
-          <div class="tf__blog_det_area">
-            <!-- <div
-                class="tf__blog_details_img wow fadeInUp"
-                data-wow-duration="1s"
-              >
-                <img
-                  src="assets/images/fees.jpg"
-                  alt="blog details"
-                  class="imf-fluid w-100 mb-auto"
-                />
-              </div> -->
-            <!-- <div
-                class="tf__blog_details_text wow fadeInUp"
-                data-wow-duration="1s"
-              > -->
-            <p></p>
-            <div class="row">
-              <div class="col-xl-6 col-lg-6">
-                <h3>Tên đăng nhập</h3>
-                <input type="text" name="" id="" />
-                <h3>Mật khẩu</h3>
-                <input type="text" name="" id="" />
-                <h3>Nhập lại mật khẩu</h3>
-                <input type="text" name="" id="" />
-                <div class="pt-3">
-                  <button type="submit" class="common_btn">Đăng ký</button>
-                </div>
+      <div class="row" id="videoYoutube">
 
-              </div>
-              <div class="col-xl-6 col-lg-6">
-                <h3>Điều khoản & hội phí thành viên</h3>
-                <div class="pt-2">
-                  <div class="form-check">
-                    <input class="form-check-input pt-1 px-2" type="checkbox" id="termsCheckbox">
-                    <label class="form-check-label" for="termsCheckbox">
-                      Vui lòng đồng ý với các điều khoản của trang này. Để xem thêm về chi tiết điều khoản, xin vui lòng
-                      đọc <a href="quy-dinh.html" style="color: blue;"> ở đây</a>
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input pt-1 px-2" type="checkbox" id="termsCheckbox">
-                    <label class="form-check-label" for="termsCheckbox">
-                      Vui lòng đồng ý với các khoản hội phí của trang này. Để xem thêm về chi tiết hội phí, xin vui lòng
-                      đọc <a href="membership-fee.html" style="color: blue;"> ở đây</a>
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="tf__pagination mt_50">
+        <div class="row">
+          <div class="col-12">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-left"></i></a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
-      <p></p>
     </div>
-    <!-- </div> -->
   </section>
-
-  <!-- CART POPUT START -->
-  <!-- CART POPUT END -->
-
   <!--=============================
-        MENU DETAILS END
+        BLOG PAGE END
     ==============================-->
 
   <!--=============================
@@ -265,6 +232,16 @@
         SCROLL BUTTON END 
     ==============================-->
 
+  <div class="modal fade" id="video_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div id="youtubeFrame">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!--jquery library js-->
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <!--bootstrap js-->
@@ -293,6 +270,8 @@
   <script src="assets/js/main.js"></script>
 
   <script src="assets/js/menu.js"></script>
+
+  <script src="assets/js/video.js"></script>
 </body>
 
 </html>

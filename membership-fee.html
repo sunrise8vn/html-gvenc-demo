@@ -1,482 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi"
-    />
-    <title>CLB KẾT NỐI DOANH NHÂN VIỆT NAM TOÀN CẦU (GVENC)</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/slick.css" />
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <link rel="stylesheet" href="assets/css/venobox.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/jquery.exzoom.css" />
 
-    <link rel="stylesheet" href="assets/css/spacing.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <style>
-      table {
-        width: 100%;
-        border-collapse: collapse;
-      }
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
-      th,
-      td {
-        padding: 8px;
-        text-align: center;
-      }
-      th {
-        background-color: #f2f2f2;
-      }
-      .highlight {
-        background-color: #ffff99;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+  <title>CLB KẾT NỐI DOANH NHÂN VIỆT NAM TOÀN CẦU (GVENC)</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/venobox.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/jquery.exzoom.css" />
 
-  <body>
-    <!--=============================
+  <link rel="stylesheet" href="assets/css/spacing.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .highlight {
+      background-color: #ffff99;
+    }
+  </style>
+</head>
+
+<body>
+  <!--=============================
         TOPBAR START
     ==============================-->
-    <section class="tf__topbar">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 col-sm-6 col-md-8">
-            <ul class="tf__topbar_info d-flex flex-wrap d-none d-sm-flex">
-              <li>
-                <a href="mailto:example@gmail.com"
-                  ><i class="fas fa-envelope"></i> support@gvenc.vn</a
-                >
-              </li>
-              <li class="d-none d-md-block">
-                <a href="callto:123456789"
-                  ><i class="fas fa-phone-alt"></i> +0 789 789 789</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-xl-6 col-sm-6 col-md-4">
-            <ul class="topbar_icon d-flex flex-wrap">
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-behance"></i></a>
-              </li>
-            </ul>
-          </div>
+  <section class="tf__topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-sm-6 col-md-8">
+          <ul class="tf__topbar_info d-flex flex-wrap d-none d-sm-flex">
+            <li>
+              <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i> support@gvenc.vn</a>
+            </li>
+            <li class="d-none d-md-block">
+              <a href="callto:123456789"><i class="fas fa-phone-alt"></i> +0 789 789 789</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-6 col-sm-6 col-md-4">
+          <ul class="topbar_icon d-flex flex-wrap">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-behance"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
-    <!--=============================
+    </div>
+  </section>
+  <!--=============================
         TOPBAR END
     ==============================-->
 
-    <!--=============================
+  <!--=============================
         MENU START
     ==============================-->
-    <nav class="navbar navbar-expand-lg main_menu">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img
-            src="assets/images/logo_GVENC.jpg"
-            alt="RegFood"
-            class="img-fluid"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="far fa-bars menu_icon_bar"></i>
-          <i class="far fa-times close_icon_close"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Trang chủ</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                >Giới thiệu <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="droap_menu">
-                <li><a href="#">Giới thiệu chung</a></li>
-                <li><a href="#">Tầm nhìn, sứ mệnh</a></li>
-                <li><a href="#">Tôn chỉ, mục đích</a></li>
-                <li><a href="#">Sơ đồ tổ chức</a></li>
-              </ul>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="menu.html">menu</a>
-              </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                >Thành viên CLB <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="droap_menu">
-                <li><a href="quy-dinh.html">Điều lệ hoạt động</a></li>
-                <li><a href="membership-fee.html">Hội phí</a></li>
-                <li><a href="sign-up.html">Đăng ký thành viên</a></li>
-              </ul>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">pages <i class="far fa-angle-down"></i></a>
-                <ul class="droap_menu">
-                  <li><a href="quy-dinh.html">menu details</a></li>
-                  <li><a href="review-manson-atum.html">blog details</a></li>
-                  <li><a href="sign-up.html">cart view</a></li>
-                  <li><a href="check_out.html">checkout</a></li>
-                  <li><a href="payment.html">payment</a></li>
-                  <li><a href="testimonial.html">testimonial</a></li>
-                  <li><a href="404.html">404/Error</a></li>
-                  <li><a href="faq.html">FAQs</a></li>
-                  <li><a href="sign_in.html">sign in</a></li>
-                  <li><a href="sign_up.html">sign up</a></li>
-                  <li><a href="forgot_password.html">forgot password</a></li>
-                  <li><a href="privacy_policy.html">privacy policy</a></li>
-                  <li><a href="terms_condition.html">terms and condition</a></li>
-                </ul>
-              </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="bai-viet.html">Tin tức - Thông báo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="menu.html">Bộ sưu tập</a>
-            </li>
-          </ul>
-          <!-- <ul class="menu_icon d-flex flex-wrap">
-                <li>
-                  <a class="cart_icon" href="sign-up.html"
-                    ><i class="fas fa-shopping-basket"></i> <span>05</span></a
-                  >
-                </li>
-                <li>
-                  <a href="dashboard.html"><i class="fas fa-user"></i></a>
-                </li>
-              </ul> -->
-        </div>
+  <nav class="navbar navbar-expand-lg main_menu">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo_GVENC.jpg" alt="RegFood" class="img-fluid" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="far fa-bars menu_icon_bar"></i>
+        <i class="far fa-times close_icon_close"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto" id="headerMenu">
+
+        </ul>
       </div>
-    </nav>
-    <!--=============================
+    </div>
+  </nav>
+  <!--=============================
         MENU END
     ==============================-->
 
-    <!--=============================
+  <!--=============================
         BREADCRUMB START
     ==============================-->
-    <section
-      class="tf__breadcrumb"
-      style="background: url(assets/images/fee.jpg)"
-    >
-      <div class="tf__breadcrumb_overlay">
-        <div class="container">
-          <div class="tf__breadcrumb_text">
-            <h1>QUY ĐỊNH</h1>
-            <ul>
-              <li><a href="index.html">Trang chủ</a></li>
-              <li><a href="#">Điều lệ hoạt động</a></li>
-            </ul>
-          </div>
+  <section class="tf__breadcrumb" style="background: url(assets/images/fee.jpg)">
+    <div class="tf__breadcrumb_overlay">
+      <div class="container">
+        <div class="tf__breadcrumb_text">
+          <h1>QUY ĐỊNH</h1>
+          <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="#">Điều lệ hoạt động</a></li>
+          </ul>
         </div>
       </div>
-    </section>
-    <!--=============================
+    </div>
+  </section>
+  <!--=============================
         BREADCRUMB END
     ==============================-->
 
-    <!--=============================
+  <!--=============================
         MENU DETAILS START
     ==============================-->
-    <section class="tf__blog_details mt_100 xs_mt_70 mb_100 xs_mb_70">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12 col-lg-12">
-            <div class="tf__blog_det_area">
-              <div
-                class="tf__blog_details_img wow fadeInUp"
-                data-wow-duration="1s"
-              >
-                <img
-                  src="assets/images/fees.jpg"
-                  alt="blog details"
-                  class="imf-fluid w-100 mb-auto"
-                />
-              </div>
-              <div
-                class="tf__blog_details_text wow fadeInUp"
-                data-wow-duration="1s"
-              >
-                <p></p>
-                <h2 class="m-10">
-                  HỘI PHÍ HỘI VIÊN CHÍNH THỨC & CÁC QUYỀN LỢI:
-                </h2>
-                <p>Phí gia nhập: 2.000.000 vnđ/ năm (duy nhất 1 lần)</p>
-                <p>
-                  Mức cơ bản: 3.000.000 vnđ/ năm , 5.000.0000 vnđ / 2 năm,
-                  8.000.000 vnđ / 3 năm ưu tiên tặng bộ ảnh nhận diện thương
-                  hiệu do tạp chí du lịch & doanh nhân bảo trợ)
-                </p>
-                <h2>
-                  QUYỀN LỢI MỨC PHÍ TRUYỀN THÔNG CỦA HỘI VIÊN HÀNG NĂM VNĐ/ NĂM
-                </h2>
-                <p>
-                  Khi tham gia GVENC và trở thành thành viên chính thức của Clb,
-                  với việc đóng phí thường niên, hội viên có thể hưởng các quyền
-                  lợi sau:
-                </p>
-                <div>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th rowspan="2">MÔ TẢ QUYỀN LỢI</th>
-                        <th>GÓI CƠ BẢN</th>
-                        <th colspan="3">GÓI MEMBER PHÂN HẠNG TRUYỀN THÔNG</th>
-                      </tr>
-                      <tr>
-                        <th>Eco 3.000.000</th>
-                        <th>Gold 10.000.000</th>
-                        <th>Platinum 20.000.000</th>
-                        <th>Diamond 50.000.000</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          1. Nhận quyết định và chứng nhận hội viên chính thức
-                          và giới thiệu trong buổi họp ra mắt thành viên mới của
-                          Clb.
-                        </td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                      </tr>
-                      <tr>
-                        <td>2. Tặng huy hiệu cho hội viên Clb</td>
-                        <td></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          3. Tặng 1 bộ đồ đồng phục tiêu chuẩn quy định của Clb
-                          khi kết nạp thành viên và hàng năm cấp mới đồng phục
-                          hội viên theo quy định
-                        </td>
-                        <td></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          4. Tặng 1 bộ đồ đồng phục VIP của Clb khi kết nạp
-                          thành viên
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          5. Tặng E.Member Card Club discount 5% từ dịch vụ
-                          Member
-                        </td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          6. Tặng phiếu Chăm sóc sức khỏe VIP trị giá 50.000.000
-                          đ
-                        </td>
-                        <td><input type="checkbox" checked disabled /></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          7. Tặng phiếu Chăm sóc sức khỏe VIP trị giá
-                          100.000.000 đ
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                      </tr>
-                      <tr>
-                        <td>8. Tặng khóa huấn luyện Body Slim 20.000.000 đ</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><input type="checkbox" checked disabled /></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <p></p>
+  <section class="tf__blog_details mt_100 xs_mt_70 mb_100 xs_mb_70">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12">
+          <div class="tf__blog_det_area">
+            <div class="tf__blog_details_img wow fadeInUp" data-wow-duration="1s">
+              <img src="assets/images/fees.jpg" alt="blog details" class="imf-fluid w-100 mb-auto" />
             </div>
+            <div class="tf__blog_details_text wow fadeInUp" data-wow-duration="1s">
+              <p></p>
+              <h2 class="m-10">
+                HỘI PHÍ HỘI VIÊN CHÍNH THỨC & CÁC QUYỀN LỢI:
+              </h2>
+              <p>Phí gia nhập: 2.000.000 vnđ/ năm (duy nhất 1 lần)</p>
+              <p>
+                Mức cơ bản: 3.000.000 vnđ/ năm , 5.000.0000 vnđ / 2 năm,
+                8.000.000 vnđ / 3 năm ưu tiên tặng bộ ảnh nhận diện thương
+                hiệu do tạp chí du lịch & doanh nhân bảo trợ)
+              </p>
+              <h2>
+                QUYỀN LỢI MỨC PHÍ TRUYỀN THÔNG CỦA HỘI VIÊN HÀNG NĂM VNĐ/ NĂM
+              </h2>
+              <p>
+                Khi tham gia GVENC và trở thành thành viên chính thức của Clb,
+                với việc đóng phí thường niên, hội viên có thể hưởng các quyền
+                lợi sau:
+              </p>
+              <div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th rowspan="2">MÔ TẢ QUYỀN LỢI</th>
+                      <th>GÓI CƠ BẢN</th>
+                      <th colspan="3">GÓI MEMBER PHÂN HẠNG TRUYỀN THÔNG</th>
+                    </tr>
+                    <tr>
+                      <th>Eco 3.000.000</th>
+                      <th>Gold 10.000.000</th>
+                      <th>Platinum 20.000.000</th>
+                      <th>Diamond 50.000.000</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        1. Nhận quyết định và chứng nhận hội viên chính thức
+                        và giới thiệu trong buổi họp ra mắt thành viên mới của
+                        Clb.
+                      </td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                    </tr>
+                    <tr>
+                      <td>2. Tặng huy hiệu cho hội viên Clb</td>
+                      <td></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        3. Tặng 1 bộ đồ đồng phục tiêu chuẩn quy định của Clb
+                        khi kết nạp thành viên và hàng năm cấp mới đồng phục
+                        hội viên theo quy định
+                      </td>
+                      <td></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        4. Tặng 1 bộ đồ đồng phục VIP của Clb khi kết nạp
+                        thành viên
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        5. Tặng E.Member Card Club discount 5% từ dịch vụ
+                        Member
+                      </td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        6. Tặng phiếu Chăm sóc sức khỏe VIP trị giá 50.000.000
+                        đ
+                      </td>
+                      <td><input type="checkbox" checked disabled /></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        7. Tặng phiếu Chăm sóc sức khỏe VIP trị giá
+                        100.000.000 đ
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                    </tr>
+                    <tr>
+                      <td>8. Tặng khóa huấn luyện Body Slim 20.000.000 đ</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><input type="checkbox" checked disabled /></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <p></p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- CART POPUT START -->
-    <!-- CART POPUT END -->
+  <!-- CART POPUT START -->
+  <!-- CART POPUT END -->
 
-    <!--=============================
+  <!--=============================
         MENU DETAILS END
     ==============================-->
 
-    <!--=============================
+  <!--=============================
         FOOTER START
     ==============================-->
-    <footer style="background: url(assets/images/footer_bg.jpg)">
-      <div class="footer_overlay pt_100 xs_pt_70 pb_100 xs_pb_20">
-        <div class="container wow fadeInUp" data-wow-duration="1s">
-          <div class="row justify-content-between">
-            <div class="col-xxl-4 col-lg-4 col-sm-9 col-md-7">
-              <div class="tf__footer_content">
-                <a class="footer_logo" href="index.html">
-                  <img
-                    src="assets/images/logo_GVENC_white.png"
-                    alt="RegFood"
-                    class="img-fluid w-100"
-                  />
-                </a>
-                <span
-                  >Chúng tôi là câu lạc bộ những nhà kinh doanh, quản lý doanh
-                  nghiệp mang trong mình hoài bão xây dựng một cộng đồng kết nối
-                  mạnh mẽ các doanh nghiệp Việt Nam và thế giới.
-                </span>
-                <ul class="social_link d-flex flex-wrap">
-                  <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-behance"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                  </li>
-                </ul>
-              </div>
+  <footer style="background: url(assets/images/footer_bg.jpg)">
+    <div class="footer_overlay pt_100 xs_pt_70 pb_100 xs_pb_20">
+      <div class="container wow fadeInUp" data-wow-duration="1s">
+        <div class="row justify-content-between">
+          <div class="col-xxl-4 col-lg-4 col-sm-9 col-md-7">
+            <div class="tf__footer_content">
+              <a class="footer_logo" href="index.html">
+                <img src="assets/images/logo_GVENC_white.png" alt="RegFood" class="img-fluid w-100" />
+              </a>
+              <span>Chúng tôi là câu lạc bộ những nhà kinh doanh, quản lý doanh
+                nghiệp mang trong mình hoài bão xây dựng một cộng đồng kết nối
+                mạnh mẽ các doanh nghiệp Việt Nam và thế giới.
+              </span>
+              <ul class="social_link d-flex flex-wrap">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-behance"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+              </ul>
             </div>
-            <div class="col-xxl-2 col-lg-2 col-sm-5 col-md-5">
-              <div class="tf__footer_content">
-                <h3>Danh mục</h3>
-                <ul>
-                  <li><a href="#">Trang chủ</a></li>
-                  <li><a href="#">Giới thiệu</a></li>
-                  <li><a href="#">Tin tức, thông báo</a></li>
-                  <li><a href="#">Thành viên CLB</a></li>
-                </ul>
-              </div>
+          </div>
+          <div class="col-xxl-2 col-lg-2 col-sm-5 col-md-5">
+            <div class="tf__footer_content">
+              <h3>Danh mục</h3>
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Tin tức, thông báo</a></li>
+                <li><a href="#">Thành viên CLB</a></li>
+              </ul>
             </div>
-            <div class="col-xxl-3 col-lg-4 col-sm-9 col-md-7 order-lg-4">
-              <div class="tf__footer_content">
-                <h3>VỀ CHÚNG TÔI</h3>
-                <p class="info">
-                  <i class="fas fa-phone-alt"></i> +0 789 789 789
-                </p>
-                <p class="info">
-                  <i class="fas fa-envelope"></i> support@gvenc.vn
-                </p>
-                <p class="info">
-                  <i class="far fa-map-marker-alt"></i> Hà Nội, Việt Nam
-                </p>
-              </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-sm-9 col-md-7 order-lg-4">
+            <div class="tf__footer_content">
+              <h3>VỀ CHÚNG TÔI</h3>
+              <p class="info">
+                <i class="fas fa-phone-alt"></i> +0 789 789 789
+              </p>
+              <p class="info">
+                <i class="fas fa-envelope"></i> support@gvenc.vn
+              </p>
+              <p class="info">
+                <i class="far fa-map-marker-alt"></i> Hà Nội, Việt Nam
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="tf__footer_bottom d-flex flex-wrap">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="tf__footer_bottom_text">
-                <p>Copyright ©<b> GVENC</b> 2024</p>
-              </div>
+    </div>
+    <div class="tf__footer_bottom d-flex flex-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="tf__footer_bottom_text">
+              <p>Copyright ©<b> GVENC</b> 2024</p>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!--=============================
+    </div>
+  </footer>
+  <!--=============================
         FOOTER END
     ==============================-->
 
-    <!--=============================
+  <!--=============================
         SCROLL BUTTON START
     ==============================-->
-    <div class="tf__scroll_btn"><i class="fas fa-hand-pointer"></i></div>
-    <!--=============================
+  <div class="tf__scroll_btn"><i class="fas fa-hand-pointer"></i></div>
+  <!--=============================
         SCROLL BUTTON END 
     ==============================-->
 
-    <!--jquery library js-->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <!--bootstrap js-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--font-awesome js-->
-    <script src="assets/js/Font-Awesome.js"></script>
-    <!-- slick slider -->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- isotop js -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- counter up js -->
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/jquery.countup.min.js"></script>
-    <!-- nice select js -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- venobox js -->
-    <script src="assets/js/venobox.min.js"></script>
-    <!-- sticky sidebar js -->
-    <script src="assets/js/sticky_sidebar.js"></script>
-    <!-- wow js -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- ex zoom js -->
-    <script src="assets/js/jquery.exzoom.js"></script>
+  <!--jquery library js-->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <!--bootstrap js-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!--font-awesome js-->
+  <script src="assets/js/Font-Awesome.js"></script>
+  <!-- slick slider -->
+  <script src="assets/js/slick.min.js"></script>
+  <!-- isotop js -->
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <!-- counter up js -->
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.countup.min.js"></script>
+  <!-- nice select js -->
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <!-- venobox js -->
+  <script src="assets/js/venobox.min.js"></script>
+  <!-- sticky sidebar js -->
+  <script src="assets/js/sticky_sidebar.js"></script>
+  <!-- wow js -->
+  <script src="assets/js/wow.min.js"></script>
+  <!-- ex zoom js -->
+  <script src="assets/js/jquery.exzoom.js"></script>
 
-    <!--main/custom js-->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!--main/custom js-->
+  <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/menu.js"></script>
+</body>
+
 </html>
