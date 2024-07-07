@@ -10,7 +10,7 @@ const menuData = [
     link: '#',
     children: [
       {
-        title: 'Giờ thiệu chung',
+        title: 'Giới thiệu chung',
         link: 'gioi-thieu.html',
       },
       {
