@@ -65,6 +65,11 @@ const menuData = [
       },
     ],
   },
+  {
+    type: 'single',
+    title: 'Liên hệ ',
+    link: 'lien-he.html',
+  },
 ];
 
 const headerMenu = $('#headerMenu');
