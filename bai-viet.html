@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi"
+    />
+    <title>CLB KẾT NỐI DOANH NHÂN VIỆT NAM TOÀN CẦU (GVENC)</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/venobox.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/jquery.exzoom.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <title>RegFood || Restaurant HTML Template</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/venobox.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/jquery.exzoom.css">
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
 
-    <link rel="stylesheet" href="assets/css/spacing.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-
-<body>
-
+  <body>
     <!--=============================
         TOPBAR START
     ==============================-->
@@ -31,10 +31,14 @@
           <div class="col-xl-6 col-sm-6 col-md-8">
             <ul class="tf__topbar_info d-flex flex-wrap d-none d-sm-flex">
               <li>
-                <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i> support@gvenc.vn</a>
+                <a href="mailto:example@gmail.com"
+                  ><i class="fas fa-envelope"></i> support@gvenc.vn</a
+                >
               </li>
               <li class="d-none d-md-block">
-                <a href="callto:123456789"><i class="fas fa-phone-alt"></i> +0 789 789 789</a>
+                <a href="callto:123456789"
+                  ><i class="fas fa-phone-alt"></i> +0 789 789 789</a
+                >
               </li>
             </ul>
           </div>
@@ -61,51 +65,67 @@
         TOPBAR END
     ==============================-->
 
-
     <!--=============================
         MENU START
     ==============================-->
     <nav class="navbar navbar-expand-lg main_menu">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo_GVENC.jpg" alt="RegFood" class="img-fluid" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="far fa-bars menu_icon_bar"></i>
-            <i class="far fa-times close_icon_close"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Giới thiệu <i class="far fa-angle-down"></i></a>
-                <ul class="droap_menu">
-                  <li><a href="#">Giới thiệu chung</a></li>
-                  <li><a href="#">Tầm nhìn, sứ mệnh</a></li>
-                  <li><a href="#">Tôn chỉ, mục đích</a></li>
-                  <li><a href="#">Sơ đồ tổ chức</a></li>
-                </ul>
-              </li>
-              <!-- <li class="nav-item">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logo_GVENC.jpg"
+            alt="RegFood"
+            class="img-fluid"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="far fa-bars menu_icon_bar"></i>
+          <i class="far fa-times close_icon_close"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Giới thiệu <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li><a href="#">Giới thiệu chung</a></li>
+                <li><a href="#">Tầm nhìn, sứ mệnh</a></li>
+                <li><a href="#">Tôn chỉ, mục đích</a></li>
+                <li><a href="#">Sơ đồ tổ chức</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="menu.html">menu</a>
               </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#">Thành viên CLB <i class="far fa-angle-down"></i></a>
-                <ul class="droap_menu">
-                  <li><a href="quy-dinh.html">Điều lệ hoạt động</a></li>
-                  <li><a href="review-manson-atum.html">Hội phí</a></li>
-                  <li><a href="cart_view.html">Đăng ký thành viên</a></li>
-                </ul>
-              </li>
-              <!-- <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Thành viên CLB <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li><a href="quy-dinh.html">Điều lệ hoạt động</a></li>
+                <li><a href="membership-fee.html">Hội phí</a></li>
+                <li><a href="sign-up.html">Đăng ký thành viên</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#">pages <i class="far fa-angle-down"></i></a>
                 <ul class="droap_menu">
                   <li><a href="quy-dinh.html">menu details</a></li>
                   <li><a href="review-manson-atum.html">blog details</a></li>
-                  <li><a href="cart_view.html">cart view</a></li>
+                  <li><a href="sign-up.html">cart view</a></li>
                   <li><a href="check_out.html">checkout</a></li>
                   <li><a href="payment.html">payment</a></li>
                   <li><a href="testimonial.html">testimonial</a></li>
@@ -118,16 +138,16 @@
                   <li><a href="terms_condition.html">terms and condition</a></li>
                 </ul>
               </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="bai-viet.html">Tin tức - Thông báo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu.html">Bộ sưu tập</a>
-              </li>
-            </ul>
-            <!-- <ul class="menu_icon d-flex flex-wrap">
+            <li class="nav-item">
+              <a class="nav-link" href="bai-viet.html">Tin tức - Thông báo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Bộ sưu tập</a>
+            </li>
+          </ul>
+          <!-- <ul class="menu_icon d-flex flex-wrap">
                 <li>
-                  <a class="cart_icon" href="cart_view.html"
+                  <a class="cart_icon" href="sign-up.html"
                     ><i class="fas fa-shopping-basket"></i> <span>05</span></a
                   >
                 </li>
@@ -135,306 +155,432 @@
                   <a href="dashboard.html"><i class="fas fa-user"></i></a>
                 </li>
               </ul> -->
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!--=============================
         MENU END
     ==============================-->
 
-
     <!--=============================
         BREADCRUMB START
     ==============================-->
-    <section class="tf__breadcrumb" style="background: url(assets/images/breadcrumb_bg.jpg);">
-        <div class="tf__breadcrumb_overlay">
-            <div class="container">
-                <div class="tf__breadcrumb_text">
-                    <h1>Bài viết mới</h1>
-                    <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li><a href="#">Bài viết</a></li>
-                    </ul>
-                </div>
-            </div>
+    <section
+      class="tf__breadcrumb"
+      style="background: url(assets/images/news.jpg)"
+    >
+      <div class="tf__breadcrumb_overlay">
+        <div class="container">
+          <div class="tf__breadcrumb_text">
+            <h1>Bài viết mới</h1>
+            <ul>
+              <li><a href="index.html">Trang chủ</a></li>
+              <li><a href="#">Bài viết</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
     <!--=============================
         BREADCRUMB END
     ==============================-->
 
-
     <!--=============================
         BLOG PAGE START
     ==============================-->
     <section class="tf__blog_page mt_75 xs_mt_45 mb_100 xs_mb_70">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="tf__single_blog">
-                        <div class="tf__single_blog_img">
-                            <img src="assets/images/wireless.JPG" alt="author" class="img-fluid w-100">
-                        </div>
-                        <div class="tf__single_blog_author">
-                            <div class="img">
-                                <img src="assets/images/client_1.png" alt="author" class="img-fluid w-100">
-                            </div>
-                            <div class="text">
-                                <h5>Ngon bổ rẻ</h5>
-                                <p>14-06-2024</p>
-                            </div>
-                        </div>
-                        <div class="tf__single_blog_text">
-                            <a class="category" href="#">Công nghệ</a>
-                            <a class="title" href="review-manson-atum.html">Trên tay Anker Soundcore R50i NC – TWS có chống ồn chủ động giá bình dân</a>
-                            <p>Tai nghe TWS đã có thời gian dài phát triển, vì vậy mức giá đã rất dễ tiếp cận. Anker Soundcore R50i NC cũng là một mẫu tai nghe như vậy. Với mức giá chỉ loanh quanh 400,000đ, chúng ta đã có tai nghe TWS có chống ồn chủ động thích ứng ANC rồi.</p>
-                            <div class="tf__single_blog_footer">
-                                <a class="read_btn" href="review-manson-atum.html">Đọc tiếp <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <span><i class="far fa-comments"></i> 120</span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
+            <div class="tf__single_blog">
+              <div class="tf__single_blog_img">
+                <img
+                  src="assets/images/wireless.JPG"
+                  alt="author"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="tf__single_blog_author">
+                <div class="img">
+                  <img
+                    src="assets/images/client_1.png"
+                    alt="author"
+                    class="img-fluid w-100"
+                  />
                 </div>
-                <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="tf__single_blog">
-                        <div class="tf__single_blog_img">
-                            <img src="assets/images/accessory.JPG" alt="author" class="img-fluid w-100">
-                        </div>
-                        <div class="tf__single_blog_author">
-                            <div class="img">
-                                <img src="assets/images/client_2.png" alt="author" class="img-fluid w-100">
-                            </div>
-                            <div class="text">
-                                <h5>nktluan</h5>
-                                <p>30-06-2024</p>
-                            </div>
-                        </div>
-                        <div class="tf__single_blog_text">
-                            <a class="category" href="#">phụ kiện</a>
-                            <a class="title" href="review-manson-atum.html">Trên tay đèn kẹp mini F6, hỗ trợ quay phim, chụp hình khi bị thiếu sáng</a>
-                            <p>Hôm nay mình tiếp tục mua một cây đèn hỗ trợ ánh sáng cho điện thoại khá ổn, có thể kẹp khắp nơi từ điện thoại, laptop hay cầm tay để chiếu sáng, mời xem qua video tại đây hoặc trên tiktok</p>
-                            <div class="tf__single_blog_footer">
-                                <a class="read_btn" href="review-manson-atum.html">Đọc tiếp <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <span><i class="far fa-comments"></i> 120</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="text">
+                  <h5>Ngon bổ rẻ</h5>
+                  <p>14-06-2024</p>
                 </div>
-                <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="tf__single_blog">
-                        <div class="tf__single_blog_img">
-                            <img src="assets/images/mobile.JPG" alt="author" class="img-fluid w-100">
-                        </div>
-                        <div class="tf__single_blog_author">
-                            <div class="img">
-                                <img src="assets/images/client_3.png" alt="author" class="img-fluid w-100">
-                            </div>
-                            <div class="text">
-                                <h5>Cáo-Foxtek</h5>
-                                <p>20-04-2024</p>
-                            </div>
-                        </div>
-                        <div class="tf__single_blog_text">
-                            <a class="category" href="#">điện thoại</a>
-                            <a class="title" href="review-manson-atum.html">Đánh giá pin POCO X4 GT: Pin 5.080 mAh sau 2 năm cho thời lượng sử dụng như thế nào?</a>
-                            <p>Khi POCO X4 GT ra mắt (tháng 6/2022) thì đây là một trong những mẫu máy có điểm mạnh về P/P (hiệu năng/giá thành) và cho đến thời điểm hiện tại thì điều này vẫn không hề thay đổi. POCO X4 GT hiện vẫn là một trong những chiếc điện thoại đáng quan tâm trong phân khúc giá từ 3 - 5 triệu đồng. Như mình đã từng chia sẻ trong bài đánh giá hiệu năng POCO X4 GT sau 2 năm thì thiết bị không chỉ cải thiện hiệu suất mà còn tăng thời lượng sử dụng pin sau khi cập nhật Xiaomi HyperOS. Mình sẽ đánh giá pin POCO X4 GT với các tác vụ thực tế xoay vòng để xem sau 2 năm thì thời lượng pin của máy sẽ ra sao?</p>
-                            <div class="tf__single_blog_footer">
-                                <a class="read_btn" href="review-manson-atum.html">Đọc tiếp <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <span><i class="far fa-comments"></i> 120</span>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="tf__single_blog_text">
+                <a class="category" href="#">Công nghệ</a>
+                <a class="title" href="review-manson-atum.html"
+                  >Trên tay Anker Soundcore R50i NC – TWS có chống ồn chủ động
+                  giá bình dân</a
+                >
+                <p>
+                  Tai nghe TWS đã có thời gian dài phát triển, vì vậy mức giá đã
+                  rất dễ tiếp cận. Anker Soundcore R50i NC cũng là một mẫu tai
+                  nghe như vậy. Với mức giá chỉ loanh quanh 400,000đ, chúng ta
+                  đã có tai nghe TWS có chống ồn chủ động thích ứng ANC rồi.
+                </p>
+                <div class="tf__single_blog_footer">
+                  <a class="read_btn" href="review-manson-atum.html"
+                    >Đọc tiếp <i class="far fa-long-arrow-right"></i
+                  ></a>
+                  <span><i class="far fa-comments"></i> 120</span>
                 </div>
-                <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="tf__single_blog">
-                        <div class="tf__single_blog_img">
-                            <img src="assets/images/lap.jpg" alt="author" class="img-fluid w-100">
-                        </div>
-                        <div class="tf__single_blog_author">
-                            <div class="img">
-                                <img src="assets/images/client_1.png" alt="author" class="img-fluid w-100">
-                            </div>
-                            <div class="text">
-                                <h5>sweetisme</h5>
-                                <p>21-06-2024</p>
-                            </div>
-                        </div>
-                        <div class="tf__single_blog_text">
-                            <a class="category" href="#">Laptop-PC</a>
-                            <a class="title" href="review-manson-atum.html">Trên tay Dell XPS 13 9345: laptop Windows mà chạy Snapdragon X Elite</a>
-                            <p>Cái ngày mà chúng ta mong chờ một mẫu laptop Windows có hiệu năng mạnh mẽ lại vừa pin trâu, có thể không cần cắm sạc vẫn dùng được 7-8 tiếng liên tục đã thực sự trở thành hiện thực với mẫu Dell XPS 13 9545 mình đang có ở đây, với nền tảng Qualcomm Snapdragon X Elite đem lại biết bao hi vọng dành cho người dùng Windows sẽ có một mẫu laptop có thể “sòng phẳng” được với Apple MacBook.</p>
-                            <div class="tf__single_blog_footer">
-                                <a class="read_btn" href="review-manson-atum.html">Đọc tiếp <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <span><i class="far fa-comments"></i> 120</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="tf__single_blog">
-                        <div class="tf__single_blog_img">
-                            <img src="assets/images/mobile.JPG" alt="author" class="img-fluid w-100">
-                        </div>
-                        <div class="tf__single_blog_author">
-                            <div class="img">
-                                <img src="assets/images/client_4.png" alt="author" class="img-fluid w-100">
-                            </div>
-                            <div class="text">
-                                <h5>cuhiep</h5>
-                                <p>20-03-2024</p>
-                            </div>
-                        </div>
-                        <div class="tf__single_blog_text">
-                            <a class="category" href="#">điện thoại</a>
-                            <a class="title" href="review-manson-atum.html">Android 15 Beta 2: Top các thay đổi và tính năng mới nổi bật</a>
-                            <p>Android 15 đã bước sang bản beta thứ 2, cũng là bản OS dành cho đại đa số người dùng muốn thử nghiệm đều được, không chỉ riêng điện thoại Pixel. Android 15 với tên mã Vanilla Ice Cream với các tính năng và thay đổi mới cho đến thời điểm hiện tại thì nó giống một phiên bản cập nhật nhỏ dành cho Android 14. Bởi vì kể từ Android 12, mỗi phiên bản Android mới không mang nhiều sự thay đổi gọi là đột phá, nhưng hãy cùng xem Android 15 sẽ có những tính năng gì mới.</p>
-                            <div class="tf__single_blog_footer">
-                                <a class="read_btn" href="review-manson-atum.html">Đọc tiếp <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <span><i class="far fa-comments"></i> 120</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="tf__single_blog">
-                        <div class="tf__single_blog_img">
-                            <img src="assets/images/ghe.jpg" alt="author" class="img-fluid w-100">
-                        </div>
-                        <div class="tf__single_blog_author">
-                            <div class="img">
-                                <img src="assets/images/client_1.png" alt="author" class="img-fluid w-100">
-                            </div>
-                            <div class="text">
-                                <h5>cuhiep</h5>
-                                <p>21-05-2024</p>
-                            </div>
-                        </div>
-                        <div class="tf__single_blog_text">
-                            <a class="category" href="#">phụ kiện</a>
-                            <a class="title" href="review-manson-atum.html">Trên tay ghế công thái học Manson Atum: nhiều tính năng, giá rẻ</a>
-                            <p>Lâu rồi mới làm nhiệm vụ giới thiệu ghế văn phòng cho anh em. Hôm nay, mình sẽ trên tay giới thiệu chiếc Manson Atum, đặc điểm nổi bật của chiếc này là tuy giá rẻ nhưng lại được trang bị rất nhiều tính năng và tuỳ chỉnh để anh em nào thích nhiều tính năng, thích chỉnh được nhiều sẽ hài lòng với nó..</p>
-                            <div class="tf__single_blog_footer">
-                                <a class="read_btn" href="review-manson-atum.html">Đọc tiếp <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <span><i class="far fa-comments"></i> 120</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="tf__pagination mt_50">
-                <div class="row">
-                    <div class="col-12">
-                        <nav aria-label="...">
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-left"></i></a>
-                                </li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+          </div>
+          <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
+            <div class="tf__single_blog">
+              <div class="tf__single_blog_img">
+                <img
+                  src="assets/images/accessory.JPG"
+                  alt="author"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="tf__single_blog_author">
+                <div class="img">
+                  <img
+                    src="assets/images/client_2.png"
+                    alt="author"
+                    class="img-fluid w-100"
+                  />
                 </div>
+                <div class="text">
+                  <h5>nktluan</h5>
+                  <p>30-06-2024</p>
+                </div>
+              </div>
+              <div class="tf__single_blog_text">
+                <a class="category" href="#">phụ kiện</a>
+                <a class="title" href="review-manson-atum.html"
+                  >Trên tay đèn kẹp mini F6, hỗ trợ quay phim, chụp hình khi bị
+                  thiếu sáng</a
+                >
+                <p>
+                  Hôm nay mình tiếp tục mua một cây đèn hỗ trợ ánh sáng cho điện
+                  thoại khá ổn, có thể kẹp khắp nơi từ điện thoại, laptop hay
+                  cầm tay để chiếu sáng, mời xem qua video tại đây hoặc trên
+                  tiktok
+                </p>
+                <div class="tf__single_blog_footer">
+                  <a class="read_btn" href="review-manson-atum.html"
+                    >Đọc tiếp <i class="far fa-long-arrow-right"></i
+                  ></a>
+                  <span><i class="far fa-comments"></i> 120</span>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
+            <div class="tf__single_blog">
+              <div class="tf__single_blog_img">
+                <img
+                  src="assets/images/mobile.JPG"
+                  alt="author"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="tf__single_blog_author">
+                <div class="img">
+                  <img
+                    src="assets/images/client_3.png"
+                    alt="author"
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="text">
+                  <h5>Cáo-Foxtek</h5>
+                  <p>20-04-2024</p>
+                </div>
+              </div>
+              <div class="tf__single_blog_text">
+                <a class="category" href="#">điện thoại</a>
+                <a class="title" href="review-manson-atum.html"
+                  >Đánh giá pin POCO X4 GT: Pin 5.080 mAh sau 2 năm cho thời
+                  lượng sử dụng như thế nào?</a
+                >
+                <p>
+                  Khi POCO X4 GT ra mắt (tháng 6/2022) thì đây là một trong
+                  những mẫu máy có điểm mạnh về P/P (hiệu năng/giá thành) và cho
+                  đến thời điểm hiện tại thì điều này vẫn không hề thay đổi.
+                  POCO X4 GT hiện vẫn là một trong những chiếc điện thoại đáng
+                  quan tâm trong phân khúc giá từ 3 - 5 triệu đồng. Như mình đã
+                  từng chia sẻ trong bài đánh giá hiệu năng POCO X4 GT sau 2 năm
+                  thì thiết bị không chỉ cải thiện hiệu suất mà còn tăng thời
+                  lượng sử dụng pin sau khi cập nhật Xiaomi HyperOS. Mình sẽ
+                  đánh giá pin POCO X4 GT với các tác vụ thực tế xoay vòng để
+                  xem sau 2 năm thì thời lượng pin của máy sẽ ra sao?
+                </p>
+                <div class="tf__single_blog_footer">
+                  <a class="read_btn" href="review-manson-atum.html"
+                    >Đọc tiếp <i class="far fa-long-arrow-right"></i
+                  ></a>
+                  <span><i class="far fa-comments"></i> 120</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
+            <div class="tf__single_blog">
+              <div class="tf__single_blog_img">
+                <img
+                  src="assets/images/lap.jpg"
+                  alt="author"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="tf__single_blog_author">
+                <div class="img">
+                  <img
+                    src="assets/images/client_1.png"
+                    alt="author"
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="text">
+                  <h5>sweetisme</h5>
+                  <p>21-06-2024</p>
+                </div>
+              </div>
+              <div class="tf__single_blog_text">
+                <a class="category" href="#">Laptop-PC</a>
+                <a class="title" href="review-manson-atum.html"
+                  >Trên tay Dell XPS 13 9345: laptop Windows mà chạy Snapdragon
+                  X Elite</a
+                >
+                <p>
+                  Cái ngày mà chúng ta mong chờ một mẫu laptop Windows có hiệu
+                  năng mạnh mẽ lại vừa pin trâu, có thể không cần cắm sạc vẫn
+                  dùng được 7-8 tiếng liên tục đã thực sự trở thành hiện thực
+                  với mẫu Dell XPS 13 9545 mình đang có ở đây, với nền tảng
+                  Qualcomm Snapdragon X Elite đem lại biết bao hi vọng dành cho
+                  người dùng Windows sẽ có một mẫu laptop có thể “sòng phẳng”
+                  được với Apple MacBook.
+                </p>
+                <div class="tf__single_blog_footer">
+                  <a class="read_btn" href="review-manson-atum.html"
+                    >Đọc tiếp <i class="far fa-long-arrow-right"></i
+                  ></a>
+                  <span><i class="far fa-comments"></i> 120</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
+            <div class="tf__single_blog">
+              <div class="tf__single_blog_img">
+                <img
+                  src="assets/images/mobile.JPG"
+                  alt="author"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="tf__single_blog_author">
+                <div class="img">
+                  <img
+                    src="assets/images/client_4.png"
+                    alt="author"
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="text">
+                  <h5>cuhiep</h5>
+                  <p>20-03-2024</p>
+                </div>
+              </div>
+              <div class="tf__single_blog_text">
+                <a class="category" href="#">điện thoại</a>
+                <a class="title" href="review-manson-atum.html"
+                  >Android 15 Beta 2: Top các thay đổi và tính năng mới nổi
+                  bật</a
+                >
+                <p>
+                  Android 15 đã bước sang bản beta thứ 2, cũng là bản OS dành
+                  cho đại đa số người dùng muốn thử nghiệm đều được, không chỉ
+                  riêng điện thoại Pixel. Android 15 với tên mã Vanilla Ice
+                  Cream với các tính năng và thay đổi mới cho đến thời điểm hiện
+                  tại thì nó giống một phiên bản cập nhật nhỏ dành cho Android
+                  14. Bởi vì kể từ Android 12, mỗi phiên bản Android mới không
+                  mang nhiều sự thay đổi gọi là đột phá, nhưng hãy cùng xem
+                  Android 15 sẽ có những tính năng gì mới.
+                </p>
+                <div class="tf__single_blog_footer">
+                  <a class="read_btn" href="review-manson-atum.html"
+                    >Đọc tiếp <i class="far fa-long-arrow-right"></i
+                  ></a>
+                  <span><i class="far fa-comments"></i> 120</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1s">
+            <div class="tf__single_blog">
+              <div class="tf__single_blog_img">
+                <img
+                  src="assets/images/ghe.jpg"
+                  alt="author"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="tf__single_blog_author">
+                <div class="img">
+                  <img
+                    src="assets/images/client_1.png"
+                    alt="author"
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="text">
+                  <h5>cuhiep</h5>
+                  <p>21-05-2024</p>
+                </div>
+              </div>
+              <div class="tf__single_blog_text">
+                <a class="category" href="#">phụ kiện</a>
+                <a class="title" href="review-manson-atum.html"
+                  >Trên tay ghế công thái học Manson Atum: nhiều tính năng, giá
+                  rẻ</a
+                >
+                <p>
+                  Lâu rồi mới làm nhiệm vụ giới thiệu ghế văn phòng cho anh em.
+                  Hôm nay, mình sẽ trên tay giới thiệu chiếc Manson Atum, đặc
+                  điểm nổi bật của chiếc này là tuy giá rẻ nhưng lại được trang
+                  bị rất nhiều tính năng và tuỳ chỉnh để anh em nào thích nhiều
+                  tính năng, thích chỉnh được nhiều sẽ hài lòng với nó..
+                </p>
+                <div class="tf__single_blog_footer">
+                  <a class="read_btn" href="review-manson-atum.html"
+                    >Đọc tiếp <i class="far fa-long-arrow-right"></i
+                  ></a>
+                  <span><i class="far fa-comments"></i> 120</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="tf__pagination mt_50">
+          <div class="row">
+            <div class="col-12">
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="fas fa-long-arrow-alt-left"></i
+                    ></a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"
+                      ><i class="fas fa-long-arrow-alt-right"></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--=============================
         BLOG PAGE END
     ==============================-->
 
-
     <!--=============================
         FOOTER START
     ==============================-->
     <footer style="background: url(assets/images/footer_bg.jpg)">
-        <div class="footer_overlay pt_100 xs_pt_70 pb_100 xs_pb_20">
-          <div class="container wow fadeInUp" data-wow-duration="1s">
-            <div class="row justify-content-between">
-              <div class="col-xxl-4 col-lg-4 col-sm-9 col-md-7">
-                <div class="tf__footer_content">
-                  <a class="footer_logo" href="index.html">
-                    <img src="assets/images/logo_GVENC_white.png" alt="RegFood" class="img-fluid w-100" />
-                  </a>
-                  <span>Chúng tôi là câu lạc bộ những nhà kinh doanh, quản lý doanh nghiệp mang trong mình hoài bão xây dựng
-                    một cộng đồng kết
-                    nối mạnh mẽ các doanh nghiệp Việt Nam và thế giới.
-                  </span>
-                  <ul class="social_link d-flex flex-wrap">
-                    <li>
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    </li>
-                  </ul>
-                </div>
+      <div class="footer_overlay pt_100 xs_pt_70 pb_100 xs_pb_20">
+        <div class="container wow fadeInUp" data-wow-duration="1s">
+          <div class="row justify-content-between">
+            <div class="col-xxl-4 col-lg-4 col-sm-9 col-md-7">
+              <div class="tf__footer_content">
+                <a class="footer_logo" href="index.html">
+                  <img
+                    src="assets/images/logo_GVENC_white.png"
+                    alt="RegFood"
+                    class="img-fluid w-100"
+                  />
+                </a>
+                <span
+                  >Chúng tôi là câu lạc bộ những nhà kinh doanh, quản lý doanh
+                  nghiệp mang trong mình hoài bão xây dựng một cộng đồng kết nối
+                  mạnh mẽ các doanh nghiệp Việt Nam và thế giới.
+                </span>
+                <ul class="social_link d-flex flex-wrap">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </li>
+                </ul>
               </div>
-              <div class="col-xxl-2 col-lg-2 col-sm-5 col-md-5">
-                <div class="tf__footer_content">
-                  <h3>Danh mục</h3>
-                  <ul>
-                    <li><a href="#">Trang chủ</a></li>
-                    <li><a href="#">Giới thiệu</a></li>
-                    <li><a href="#">Tin tức, thông báo</a></li>
-                    <li><a href="#">Thành viên CLB</a></li>
-                  </ul>
-                </div>
+            </div>
+            <div class="col-xxl-2 col-lg-2 col-sm-5 col-md-5">
+              <div class="tf__footer_content">
+                <h3>Danh mục</h3>
+                <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li><a href="#">Giới thiệu</a></li>
+                  <li><a href="#">Tin tức, thông báo</a></li>
+                  <li><a href="#">Thành viên CLB</a></li>
+                </ul>
               </div>
-              <div class="col-xxl-3 col-lg-4 col-sm-9 col-md-7 order-lg-4">
-                <div class="tf__footer_content">
-                  <h3>VỀ CHÚNG TÔI</h3>
-                  <p class="info">
-                    <i class="fas fa-phone-alt"></i> +0 789 789 789
-                  </p>
-                  <p class="info">
-                    <i class="fas fa-envelope"></i> support@gvenc.vn
-                  </p>
-                  <p class="info">
-                    <i class="far fa-map-marker-alt"></i> Hà Nội, Việt Nam
-                  </p>
-                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-sm-9 col-md-7 order-lg-4">
+              <div class="tf__footer_content">
+                <h3>VỀ CHÚNG TÔI</h3>
+                <p class="info">
+                  <i class="fas fa-phone-alt"></i> +0 789 789 789
+                </p>
+                <p class="info">
+                  <i class="fas fa-envelope"></i> support@gvenc.vn
+                </p>
+                <p class="info">
+                  <i class="far fa-map-marker-alt"></i> Hà Nội, Việt Nam
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="tf__footer_bottom d-flex flex-wrap">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="tf__footer_bottom_text">
-                  <p>Copyright ©<b> GVENC</b> 2024</p>
-                </div>
+      </div>
+      <div class="tf__footer_bottom d-flex flex-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="tf__footer_bottom_text">
+                <p>Copyright ©<b> GVENC</b> 2024</p>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
     <!--=============================
         FOOTER END
     ==============================-->
-
 
     <!--=============================
         SCROLL BUTTON START
@@ -443,7 +589,6 @@
     <!--=============================
         SCROLL BUTTON END 
     ==============================-->
-
 
     <!--jquery library js-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -471,7 +616,5 @@
 
     <!--main/custom js-->
     <script src="assets/js/main.js"></script>
-
-</body>
-
+  </body>
 </html>

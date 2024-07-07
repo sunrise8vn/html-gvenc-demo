@@ -1158,7 +1158,7 @@ button {
     height: 100%;
     top: 0;
     right: -1px;
-    background: #ff7c08e8;
+    background: #089cffe8;
     clip-path: polygon(54% 0, 100% 0%, 100% 100%, 38% 100%);
     border-radius: 0px 10px 10px 0px;
     -webkit-border-radius: 0px 10px 10px 0px;
@@ -5889,3 +5889,39 @@ footer {
 /*=======================
     DASHBOARD PAGE END
 ========================*/
+
+/* body {
+    padding: 2%;
+    text-align: center;
+  } */
+  
+  #slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 14s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 1280px;
+  }
+  
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1280px;}
+    50% {margin-left: -1280px;}
+    60% {margin-left: -2560px;}
+    80% {margin-left: -2560px;}
+  }
+  
+ .home {
+    display: flex;
+ }
