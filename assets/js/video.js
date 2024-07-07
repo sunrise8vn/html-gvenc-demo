@@ -38,7 +38,7 @@ const showVideo = (youtubeId) => {
   youtubeFrame.empty();
 
   youtubeFrame.append(
-    `<iframe width="640px" height="360px" src="https://www.youtube.com/embed/${youtubeId}"></iframe>`
+    `<iframe class='embed-youtube' src="https://www.youtube.com/embed/${youtubeId}"></iframe>`
   );
 
   videoModal.modal('show');
