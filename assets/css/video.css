@@ -1,0 +1,16 @@
+.youtube-img:hover {
+  cursor: pointer;
+}
+
+.tf__single_blog_text .title {
+  font-size: 18px;
+}
+
+/* .modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.0001) !important;
+} */
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.0001) !important;
+  border: none;
+}
