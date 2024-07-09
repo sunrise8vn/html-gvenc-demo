@@ -2,7 +2,7 @@ const menuData = [
   {
     type: 'single',
     title: 'Trang chủ',
-    link: 'index.html',
+    link: '/',
     tag: 'HOME',
   },
   {
@@ -13,22 +13,22 @@ const menuData = [
     children: [
       {
         title: 'Giới thiệu chung',
-        link: 'gioi-thieu.html',
+        link: 'gioi-thieu',
         tag: 'ABOUT',
       },
       {
         title: 'Tầm nhìn, sứ mệnh',
-        link: 'gioi-thieu.html#tnsm',
+        link: 'gioi-thieu#tnsm',
         tag: 'ABOUT',
       },
       {
         title: 'Tôn chỉ, mục đích',
-        link: 'gioi-thieu.html#tcmd',
+        link: 'gioi-thieu#tcmd',
         tag: 'ABOUT',
       },
       {
         title: 'Sơ đồ tổ chức',
-        link: 'organizational-chart.html',
+        link: 'organizational-chart',
         tag: 'ABOUT',
       },
     ],
@@ -41,17 +41,17 @@ const menuData = [
     children: [
       {
         title: 'Điều lệ hoạt động',
-        link: 'quy-dinh.html',
+        link: 'quy-dinh',
         tag: 'MEMBER',
       },
       {
         title: 'Hội phí',
-        link: 'membership-fee.html',
+        link: 'membership-fee',
         tag: 'MEMBER',
       },
       {
         title: 'Đăng ký thành viên',
-        link: 'sign-up.html',
+        link: 'sign-up',
         tag: 'MEMBER',
       },
     ],
@@ -64,16 +64,16 @@ const menuData = [
     children: [
       {
         title: 'Tin tức',
-        link: 'bai-viet.html',
+        link: 'bai-viet',
         tag: 'NEWS',
       },
       // {
       //   title: 'Truyền thông',
-      //   link: 'truyen-thong.html',
+      //   link: 'truyen-thong',
       // },
       {
         title: 'Video',
-        link: 'video.html',
+        link: 'video',
         tag: 'NEWS',
       },
     ],
@@ -81,7 +81,7 @@ const menuData = [
   {
     type: 'single',
     title: 'Liên hệ ',
-    link: 'lien-he.html',
+    link: 'lien-he',
     tag: 'CONTACT',
   },
 ];
